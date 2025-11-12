@@ -1,0 +1,8 @@
+﻿l_english:
+
+ RULE_AIRLITE_TECH: "Aircraft Technology Unlocks"
+
+ aom_plane_ammo_upgrade:0 "Ammunition"
+ aom_plane_wing_upgrade:0 "Integrity"
+ aom_plane_strat_upgrade:0 "Bomb Bay"
+ aom_plane_lift_upgrade:0 "Wing Size"

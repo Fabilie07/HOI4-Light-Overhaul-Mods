@@ -1,0 +1,63 @@
+scripted_gui = {
+	omlite_tech_container = {
+		context_type = player_context
+		window_name = "omlite_tech_container"
+		# parent_window_token = top_bar
+
+		visible = {
+			has_country_flag = omlite_techs_open
+		}
+
+		effects = {
+			close_button_click = {
+				clr_country_flag = omlite_techs_open
+			}
+		}
+	}
+	
+	omlite_button_container = {
+		context_type = player_context
+		window_name = "omlite_button_container"
+		parent_window_name = "omlite_tech_container"
+		
+		triggers = {
+			air_icon_visible = { has_country_flag = omlite_air_tab }
+			armor_icon_visible = { has_country_flag = omlite_armor_tab }
+			naval_icon_visible = { has_country_flag = omlite_naval_tab }
+		}
+		
+		effects = {
+			air_button_click = {
+				set_country_flag = omlite_air_tab
+				clr_country_flag = omlite_armor_tab
+				clr_country_flag = omlite_naval_tab
+			}
+			armor_button_click = {
+				set_country_flag = omlite_armor_tab
+				clr_country_flag = omlite_air_tab
+				clr_country_flag = omlite_naval_tab
+			}
+			naval_button_click = {
+				set_country_flag = omlite_naval_tab
+				clr_country_flag = omlite_armor_tab
+				clr_country_flag = omlite_air_tab
+			}
+		}
+	}
+
+	omlite_techs_open_button = {
+		context_type = player_context
+		window_name = "omlite_techs_open"
+		parent_window_token = technology_tab
+
+		visible = {
+			always = yes
+		}
+
+		effects = {
+			open_button_click = {
+				set_country_flag = omlite_techs_open
+			}
+		}
+	}
+}

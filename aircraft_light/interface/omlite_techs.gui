@@ -1,0 +1,119 @@
+guiTypes = {
+	containerWindowType = {
+		name = "omlite_tech_container"
+		position = { x=-640 y=-360 }
+		size = { width = 1280 height = 720 }
+		orientation = CENTER
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_bg"
+		}
+		
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 10 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "omlite_button_container"
+		position = { x=11 y=11 }
+		size = { width = 320 height = 104 }
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_bg"
+		}
+	
+		buttonType = {
+			name = "air_button"
+			position = { x = 20 y = 22 }
+			quadTextureSprite = "GFX_omlite_button_air"
+			Orientation = "UPPER_LEFT"
+			clicksound = click_close
+		}
+		
+		buttonType = {
+			name = "armor_button"
+			position = { x = 113 y = 22 }
+			quadTextureSprite = "GFX_omlite_button_armor"
+			Orientation = "UPPER_LEFT"
+			clicksound = click_close
+		}
+		
+		buttonType = {
+			name = "naval_button"
+			position = { x = 206 y = 22 }
+			quadTextureSprite = "GFX_omlite_button_naval"
+			Orientation = "UPPER_LEFT"
+			clicksound = click_close
+		}
+		
+		iconType = {
+			name = "air_icon"
+			position = { x = 20 y = 22 }
+			quadTextureSprite = "GFX_omlite_button_air_glow"
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name = "armor_icon"
+			position = { x = 113 y = 22 }
+			quadTextureSprite = "GFX_omlite_button_armor_glow"
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name = "naval_icon"
+			position = { x = 206 y = 22 }
+			quadTextureSprite = "GFX_omlite_button_naval_glow"
+			Orientation = "UPPER_LEFT"
+		}
+	}
+	
+	containerWindowType = {
+		name = "omlite_air_container"
+		position = { x=0 y=0 }
+		size = { width = 1280 height = 720 }
+		
+	}
+	
+	containerWindowType = {
+		name = "omlite_armor_container"
+		position = { x=0 y=0 }
+		size = { width = 1280 height = 720 }
+		
+	}
+	
+	containerWindowType = {
+		name = "omlite_naval_container"
+		position = { x=0 y=0 }
+		size = { width = 1280 height = 720 }
+		
+	}
+
+	containerWindowType = {
+		name = "omlite_techs_open"
+		position = { x=338 y=8 }
+		size = { width = 100 height = 100 }
+
+		buttonType = {
+			name = "open_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite ="GFX_button_148x34_light"
+			buttonText = "OPEN_OVERHAULED_TECHS"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_close
+		}
+	}
+	
+}

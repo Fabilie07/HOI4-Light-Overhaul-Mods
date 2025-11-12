@@ -1,0 +1,17 @@
+airlite_tech_unlock_rule = {
+	name = "RULE_AIRLITE_TECH"
+	group = "RULE_LITE"
+
+	default = {
+		name = TECHNOLOGY
+		text = "RULE_LITE_TECH"
+		desc = "RULE_LITE_TECH_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TIME
+		text = "RULE_LITE_TIME"
+		desc = "RULE_LITE_TIME_DESC"
+		allow_achievements = yes
+	}
+}

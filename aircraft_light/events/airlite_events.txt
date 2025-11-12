@@ -1,0 +1,261 @@
+add_namespace = airlite_tech_pack
+
+country_event = { # Any 1933 Airframe
+	id = airlite_tech_pack.1
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TECHNOLOGY }
+				
+				OR = {
+					has_tech = iw_small_airframe
+					has_tech = iw_medium_airframe
+					has_tech = iw_large_airframe
+					has_tech = bba_early_transport_plane
+				}
+			}
+			
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TIME }
+				
+				date > 1933.01.01
+			}
+		}
+		
+		NOT = { has_tech = airlite_wings_1 }
+	}
+
+	immediate = {
+		set_technology = { airlite_wings_1 = 1 popup = no }
+		set_technology = { airlite_wheels_1 = 1 popup = no }
+		set_technology = { airlite_frame_1 = 1 popup = no }
+	}
+}
+
+country_event = { # Any 1944 Airframe
+	id = airlite_tech_pack.2
+	hidden = yes
+	trigger = {
+		OR = {
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TECHNOLOGY }
+				
+				OR = {
+					has_tech = advanced_small_airframe
+					has_tech = advanced_medium_airframe
+					has_tech = advanced_large_airframe
+				}
+			}
+			
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TIME }
+				
+				date > 1944.01.01
+			}
+		}
+		
+		NOT = { has_tech = airlite_simplified_construction }
+	}
+
+	immediate = {
+		set_technology = { airlite_simplified_construction = 1 popup = no }
+		set_technology = { airlite_aerodynamic_construction = 1 popup = no }
+	}
+}
+
+country_event = { # Any 1945 Airframe
+	id = airlite_tech_pack.3
+	hidden = yes
+	trigger = {
+		OR = {
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TECHNOLOGY }
+				
+				OR = {
+					has_tech = modern_small_airframe
+					has_tech = modern_medium_airframe
+					has_tech = modern_large_airframe
+				}
+			}
+			
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TIME }
+				
+				date > 1945.01.01
+			}
+		}
+		
+		NOT = { has_tech = airlite_wings_3 }
+	}
+
+	immediate = {
+		set_technology = { airlite_wings_3 = 1 popup = no }
+	}
+}
+
+country_event = { # Aircraft Construction
+	id = airlite_tech_pack.4
+	hidden = yes
+	trigger = {
+		OR = {
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TECHNOLOGY }
+				
+				has_tech = aircraft_construction
+			}
+			
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TIME }
+				
+				date > 1933.01.01
+			}
+		}
+		
+		NOT = { has_tech = airlite_wings_2 }
+	}
+
+	immediate = {
+		set_technology = { airlite_wings_2 = 1 popup = no }
+		set_technology = { airlite_wheels_2 = 1 popup = no }
+		set_technology = { airlite_frame_2 = 1 popup = no }
+		set_technology = { airlite_canards = 1 popup = no }
+	}
+}
+
+country_event = { # Engine 3
+	id = airlite_tech_pack.5
+	hidden = yes
+	trigger = {
+		OR = {
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TECHNOLOGY }
+				
+				has_tech = engines_3
+			}
+			
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TIME }
+				
+				date > 1938.01.01
+			}
+		}
+		
+		NOT = { has_tech = airlite_supercharger }
+	}
+
+	immediate = {
+		set_technology = { airlite_supercharger = 1 popup = no }
+	}
+}
+
+country_event = { # Engine 4
+	id = airlite_tech_pack.6
+	hidden = yes
+	trigger = {
+		OR = {
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TECHNOLOGY }
+				
+				has_tech = engines_4
+			}
+			
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TIME }
+				
+				date > 1942.01.01
+			}
+		}
+		
+		NOT = { has_tech = airlite_turbocharger }
+	}
+
+	immediate = {
+		set_technology = { airlite_turbocharger = 1 popup = no }
+	}
+}
+
+country_event = { # Remote Controlled Turrets 1
+	id = airlite_tech_pack.7
+	hidden = yes
+	trigger = {
+		OR = {
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TECHNOLOGY }
+				
+				has_tech = advanced_medium_airframe
+			}
+			
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TIME }
+				
+				date > 1942.01.01
+			}
+		}
+		
+		NOT = { has_tech = airlite_rc_turrets_1 }
+	}
+
+	immediate = {
+		set_technology = { airlite_rc_turrets_1 = 1 popup = no }
+	}
+}
+
+country_event = { # Remote Controlled Turrets 2
+	id = airlite_tech_pack.8
+	hidden = yes
+	trigger = {
+		OR = {
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TECHNOLOGY }
+				
+				has_tech = advanced_medium_airframe
+			}
+			
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TIME }
+				
+				date > 1944.01.01
+			}
+		}
+		
+		NOT = { has_tech = airlite_rc_turrets_2 }
+	}
+
+	immediate = {
+		set_technology = { airlite_rc_turrets_2 = 1 popup = no }
+	}
+}
+
+
+# POSTWAR
+
+country_event = { # Twin Spool
+	id = airlite_tech_pack.20
+	hidden = yes
+	trigger = {
+		has_game_rule = { airlite_tech_scope_rule = AOM }
+	
+		OR = {
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TECHNOLOGY }
+				
+				is_special_project_completed = sp:sp_air_axial_jet_engine
+				date > 1948.01.01
+			}
+			
+			AND = {
+				has_game_rule = { airlite_tech_unlock_rule = TIME }
+				
+				date > 1948.01.01
+			}
+		}
+		
+		NOT = { has_tech = airlite_compressor }
+	}
+
+	immediate = {
+		set_technology = { airlite_compressor = 1 popup = no }
+	}
+}

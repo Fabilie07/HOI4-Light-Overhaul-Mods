@@ -1,0 +1,244 @@
+sp_aom_guided_bomb = {
+	specialization = specialization_naval
+	
+	project_tags = {
+		sp_tag_aircraft
+		sp_tag_bomb
+	}
+	
+	allowed = {
+		has_dlc = "By Blood Alone"		
+	}
+	
+	available = {
+		FROM = {
+			has_tech = centimetric_radar
+		}
+	}
+	
+	breakthrough_cost = {
+		specialization_naval = 1
+	}
+	
+	prototype_time = sp_time.prototype.medium
+	complexity = sp_complexity.medium 
+	
+	project_output = {
+		enable_equipment_modules = {
+			radio_guided_bomb_medium
+			radio_guided_bomb_large
+		}
+	}
+	
+	generic_prototype_rewards = {
+		sp_air_political_interference_generic_reward
+		sp_air_generic_aerodynamics_advancements_reward
+		sp_air_generic_reward_scientist_xp_1
+		sp_air_generic_reward_scientist_xp_2
+		sp_air_generic_reward_air_xp_1
+		sp_air_generic_reward_air_xp_2
+		sp_air_generic_reward_major_progress_1
+		sp_air_generic_reward_major_progress_2	
+	}
+}
+
+sp_aom_vertical_cannons = {
+	specialization = specialization_air
+	
+	project_tags = {
+		sp_tag_aircraft
+	}
+	
+	allowed = {
+		has_dlc = "By Blood Alone"		
+	}
+	
+	available = {
+		FROM = {
+			has_tech = aa_cannon_1
+		}
+	}
+	
+	prototype_time = sp_time.prototype.short
+	complexity = sp_complexity.medium 
+	
+	project_output = {
+		enable_equipment_modules = {
+			vertical_aircraft_cannon_1x
+			vertical_aircraft_cannon_2x
+		}
+	}
+	
+	generic_prototype_rewards = {
+		sp_air_political_interference_generic_reward
+		sp_air_generic_aerodynamics_advancements_reward
+		sp_air_generic_reward_scientist_xp_1
+		sp_air_generic_reward_scientist_xp_2
+		sp_air_generic_reward_air_xp_1
+		sp_air_generic_reward_air_xp_2
+		sp_air_generic_reward_major_progress_1
+		sp_air_generic_reward_major_progress_2	
+	}
+}
+
+sp_aom_alternative_materials = {
+	specialization = specialization_air
+	
+	icon = GFX_sp_aom_alternative_materials
+	
+	project_tags = {
+		sp_tag_aircraft
+	}
+	
+	allowed = {
+		has_dlc = "By Blood Alone"		
+	}
+	
+	available = {
+		FROM = {
+			has_tech = dispersed_industry3
+		}
+	}
+	
+	breakthrough_cost = {
+		specialization_air = 1
+	}
+	
+	prototype_time = sp_time.prototype.medium
+	complexity = sp_complexity.medium 
+	
+	project_output = {
+		enable_equipment_modules = {
+			wooden_skin
+			plastic_wheels
+		}
+	}
+	
+	generic_prototype_rewards = {
+		sp_air_political_interference_generic_reward
+		sp_air_generic_aerodynamics_advancements_reward
+		sp_air_generic_reward_scientist_xp_1
+		sp_air_generic_reward_scientist_xp_2
+		sp_air_generic_reward_air_xp_1
+		sp_air_generic_reward_air_xp_2
+		sp_air_generic_reward_major_progress_1
+		sp_air_generic_reward_major_progress_2	
+	}
+}
+
+sp_aom_gliding_bomb = {
+	specialization = specialization_air
+	
+	project_tags = {
+		sp_tag_aircraft
+		sp_tag_bomb
+	}
+	
+	allowed = {
+		has_dlc = "By Blood Alone"		
+	}
+	
+	breakthrough_cost = {
+		specialization_air = 1
+	}
+	
+	prototype_time = sp_time.prototype.medium
+	complexity = sp_complexity.medium 
+	
+	project_output = {
+		enable_equipment_modules = {
+			gliding_bomb_locks
+		}
+	}
+	
+	generic_prototype_rewards = {
+		sp_air_political_interference_generic_reward
+		sp_air_generic_aerodynamics_advancements_reward
+		sp_air_generic_reward_scientist_xp_1
+		sp_air_generic_reward_scientist_xp_2
+		sp_air_generic_reward_air_xp_1
+		sp_air_generic_reward_air_xp_2
+		sp_air_generic_reward_major_progress_1
+		sp_air_generic_reward_major_progress_2	
+	}
+}
+
+sp_aom_wire_guided_aam = {
+	specialization = specialization_air
+	
+	project_tags = {
+		sp_tag_aircraft
+	}
+	
+	allowed = {
+		has_dlc = "By Blood Alone"		
+	}
+	
+	available = {
+		FROM = { has_tech = aa_rockets }
+	}
+	
+	breakthrough_cost = {
+		specialization_air = 1
+	}
+	
+	prototype_time = sp_time.prototype.medium
+	complexity = sp_complexity.medium 
+	
+	project_output = {
+		enable_equipment_modules = {
+			wire_guided_air_missile
+		}
+	}
+	
+	generic_prototype_rewards = {
+		sp_air_political_interference_generic_reward
+		sp_air_generic_aerodynamics_advancements_reward
+		sp_air_generic_reward_scientist_xp_1
+		sp_air_generic_reward_scientist_xp_2
+		sp_air_generic_reward_air_xp_1
+		sp_air_generic_reward_air_xp_2
+		sp_air_generic_reward_major_progress_1
+		sp_air_generic_reward_major_progress_2	
+	}
+}
+
+sp_aom_aerial_refueling = {
+	specialization = specialization_air
+	
+	project_tags = {
+		sp_tag_aircraft
+	}
+	
+	allowed = {
+		has_dlc = "By Blood Alone"		
+	}
+	
+	available = {
+		FROM = { has_tech = bba_strategic_airlifter }
+	}
+	
+	breakthrough_cost = {
+		specialization_air = 1
+	}
+	
+	prototype_time = sp_time.prototype.medium
+	complexity = sp_complexity.large 
+	
+	project_output = {
+		enable_equipment_modules = {
+			refueling_probe
+		}
+	}
+	
+	generic_prototype_rewards = {
+		sp_air_political_interference_generic_reward
+		sp_air_generic_aerodynamics_advancements_reward
+		sp_air_generic_reward_scientist_xp_1
+		sp_air_generic_reward_scientist_xp_2
+		sp_air_generic_reward_air_xp_1
+		sp_air_generic_reward_air_xp_2
+		sp_air_generic_reward_major_progress_1
+		sp_air_generic_reward_major_progress_2	
+	}
+}

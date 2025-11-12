@@ -1,0 +1,9 @@
+﻿l_english:
+
+ OPEN_OVERHAULED_TECHS:0 "Overhaul Mods"
+ 
+ RULE_LITE:0 "Overhaul Mod - Light"
+ RULE_LITE_TECHS:0 "Technology"
+ RULE_LITE_TECHS_DESC:0 "Modules are unlocked by researching the associated Technologies. Is compatible with the Vanilla Tech Tree and most mods that expand it."
+ RULE_LITE_TIME:0 "Date"
+ RULE_LITE_TIME_DESC:0 "Modules are unlocked the same day for all countries. Less immersive, but compatible with all mods in the Vanilla Timeframe."

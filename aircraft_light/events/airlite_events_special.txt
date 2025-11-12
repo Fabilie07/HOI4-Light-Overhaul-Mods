@@ -1,0 +1,32 @@
+add_namespace = airlite_aom_tech_pack
+
+# POSTWAR
+
+# country_event = { # Twin Spool
+	# id = airlite_aom_tech_pack.20
+	# hidden = yes
+	# trigger = {
+		# has_game_rule = { airlite_tech_scope_rule = AOM }
+	
+		# OR = {
+			# AND = {
+				# has_game_rule = { airlite_tech_unlock_rule = TECHNOLOGY }
+				
+				# is_special_project_completed = sp:sp_air_axial_jet_engine
+				# date > 1948.01.01
+			# }
+			
+			# AND = {
+				# has_game_rule = { airlite_tech_unlock_rule = TIME }
+				
+				# date > 1948.01.01
+			# }
+		# }
+		
+		# NOT = { has_tech = airlite_compressor }
+	# }
+
+	# immediate = {
+		# set_technology = { airlite_compressor = 1 popup = no }
+	# }
+# }
