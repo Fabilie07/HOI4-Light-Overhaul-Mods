@@ -1,0 +1,30 @@
+﻿l_english:
+
+ sp_aom_guided_bomb:0 "Radio Guided Bomb"
+ sp_aom_guided_bomb_desc:0 "A bomb with movable fins and a radio receiver. It is dropped from great heights and guided manually towards its target, mainly large ships."
+ sp_aom_vertical_cannons:0 "Vertical Cannons"
+ sp_aom_vertical_cannons_desc:0 "Upwards firing cannons can be mounted to interceptors, allowing them to engage bombers from below without being spotted."
+ sp_aom_alternative_materials:0 "Alternative Materials"
+ sp_aom_alternative_materials_desc:0 "Using wood and polymer for aircraft construction is cheaper and easier to procure."
+ sp_aom_gliding_bomb:0 "Gliding Bomb"
+ sp_aom_gliding_bomb_desc:0 "Gliding Bombs can travel greater distances, which allows them to be used against heavily defended targets."
+ sp_aom_wire_guided_aam:0 "Wire-Guided Air to Air Rocket"
+ sp_aom_wire_guided_aam_desc:0 "A simple guidance system improves this rocket's accuracy and range. It can be used against bomber formations."
+ sp_aom_self_guiding_aam:0 "Intelligent Air to Air Missiles"
+ sp_aom_self_guiding_aam_desc:0 "These missiles have small computers on board, allowing them to process information from infrared or radar sensors. This allows them to guide themselves without pilot input."
+ sp_aom_ballistic_computer:0 "Ballistic Computer"
+ sp_aom_ballistic_computer_desc:0 "This computer measures the aircrafts altitude and speed to provide an optimal bomb release point in realtime. This improves bombing accuracy greatly."
+ sp_aom_aerial_refueling:0 "Aerial Refueling"
+ sp_aom_aerial_refueling_desc:0 "Tanker aircraft can perform mid-air refueling, greatly improving our operational ranges."
+ 
+ sp_air_attack_helicopter: "Attack Helicopter"
+ sp_air_attack_helicopter_desc: "Helicopters armed with different kinds of weapons and rudimentary armor can actively support the troops on the ground."
+ 
+ 
+ # GER
+ GER_sp_aom_guided_bomb:0 "Kehl-Straßburg Antenne"
+ GER_sp_aom_vertical_cannons:0 "Schraege Musik"
+ GER_wire_guided_aam:0 "Ruhrstahl X-4"
+ 
+ # USA
+ USA_sp_aom_gliding_bomb:0 "Bat Missile"

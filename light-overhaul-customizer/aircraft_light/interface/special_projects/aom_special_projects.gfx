@@ -1,0 +1,39 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sp_aom_guided_bomb"
+		texturefile = "gfx/interface/special_project/project_icons/guided_bomb.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_aom_vertical_cannons"
+		texturefile = "gfx/interface/special_project/project_icons/vertical_cannons.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_aom_alternative_materials"
+		texturefile = "gfx/interface/special_project/project_icons/alternative_materials.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_aom_gliding_bomb"
+		texturefile = "gfx/interface/special_project/project_icons/gliding_bomb.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_aom_wire_guided_aam"
+		texturefile = "gfx/interface/special_project/project_icons/wire_guided_aam.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_aom_self_guiding_aam"
+		texturefile = "gfx/interface/special_project/project_icons/self_guiding_aam.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_aom_ballistic_computer"
+		texturefile = "gfx/interface/special_project/project_icons/ballistic_computer.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_aom_aerial_refueling"
+		texturefile = "gfx/interface/special_project/project_icons/aerial_refueling.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_air_attack_helicopter"
+		texturefile = "gfx/interface/special_project/project_icons/attack_helicopter.dds"
+	}
+}

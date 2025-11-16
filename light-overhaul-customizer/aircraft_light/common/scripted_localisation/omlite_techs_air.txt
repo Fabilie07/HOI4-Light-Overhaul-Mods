@@ -1,0 +1,29 @@
+defined_text = {
+    name = aomlite_sloc_wings_1
+    text = {
+        trigger = {
+			OR = {
+				AND = {
+					has_game_rule = { airlite_tech_unlock_rule = TECHNOLOGY }
+					
+					OR = {
+						has_tech = iw_small_airframe
+						has_tech = iw_medium_airframe
+						has_tech = iw_large_airframe
+						has_tech = bba_early_transport_plane
+					}
+				}
+				
+				AND = {
+					has_game_rule = { airlite_tech_unlock_rule = TIME }
+					
+					date > 1933.01.01
+				}
+			}
+        }
+        localization_key = "GFX_technology_naval_doctrine_folder_researched_item_bg"
+    }
+    text = {
+        localization_key = "GFX_technology_naval_doctrine_folder_unavailable_item_bg"
+    }
+}

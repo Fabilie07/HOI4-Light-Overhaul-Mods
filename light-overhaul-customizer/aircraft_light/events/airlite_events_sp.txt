@@ -1,0 +1,46 @@
+add_namespace = airlite_sp_tech_pack
+
+country_event = { # Bouncing Bombs
+	id = airlite_sp_tech_pack.1
+	hidden = yes
+	
+	trigger = {
+		is_special_project_completed = sp:sp_air_bouncing_bomb
+		
+		NOT = { has_tech = airlite_sp_air_bouncing_bomb }
+	}
+
+	immediate = {
+		set_technology = { airlite_sp_air_bouncing_bomb = 1 popup = no }
+	}
+}
+
+country_event = { # Intercontinental Bomber
+	id = airlite_sp_tech_pack.2
+	hidden = yes
+	
+	trigger = {
+		is_special_project_completed = sp:sp_air_intercontinental_bomber
+		
+		NOT = { has_tech = airlite_sp_air_intercontinental_bomber }
+	}
+
+	immediate = {
+		set_technology = { airlite_sp_air_intercontinental_bomber = 1 popup = no }
+	}
+}
+
+country_event = { # Mothership Aircraft
+	id = airlite_sp_tech_pack.3
+	hidden = yes
+	
+	trigger = {
+		is_special_project_completed = sp:sp_air_mothership_aircraft
+		
+		NOT = { has_tech = airlite_sp_air_mothership_aircraft }
+	}
+
+	immediate = {
+		set_technology = { airlite_sp_air_mothership_aircraft = 1 popup = no }
+	}
+}

@@ -1,0 +1,658 @@
+technologies = {
+
+	#### AIRFRAMES ####
+	
+	airlite_small_airframe_1 = {
+		enable_equipments = {
+			small_plane_airframe_5
+			small_plane_cas_airframe_5
+			small_plane_naval_bomber_airframe_5
+			small_plane_suicide_airframe_5
+			cv_small_plane_airframe_5
+			cv_small_plane_cas_airframe_5
+			cv_small_plane_naval_bomber_airframe_5
+			cv_small_plane_suicide_airframe_5
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_small_airframe_2 = {
+		enable_equipments = {
+			small_plane_airframe_6
+			small_plane_cas_airframe_6
+			small_plane_naval_bomber_airframe_6
+			small_plane_suicide_airframe_6
+			cv_small_plane_airframe_6
+			cv_small_plane_cas_airframe_6
+			cv_small_plane_naval_bomber_airframe_6
+			cv_small_plane_suicide_airframe_6
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_medium_airframe_1 = {
+		enable_equipments = {
+			medium_plane_airframe_5
+			medium_plane_fighter_airframe_5
+			medium_plane_scout_plane_airframe_5
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_medium_airframe_2 = {
+		enable_equipments = {
+			medium_plane_airframe_6
+			medium_plane_fighter_airframe_6
+			medium_plane_scout_plane_airframe_6
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_large_airframe_1 = {
+		enable_equipments = {
+			large_plane_airframe_5
+			large_plane_maritime_patrol_plane_airframe_5
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_large_airframe_2 = {
+		enable_equipments = {
+			large_plane_airframe_6
+			large_plane_maritime_patrol_plane_airframe_6
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	#### WINGS ####
+	
+	airlite_wings_1 = {
+		enable_equipment_modules = {
+			biplane
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_wings_2 = {
+		enable_equipment_modules = {
+			monoplane
+			round_wings
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_wings_3 = {
+		enable_equipment_modules = {
+			swept_wings
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_wings_4 = {
+		enable_equipment_modules = {
+			delta_wings
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_wings_5 = {
+		enable_equipment_modules = {
+			double_delta_wings
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	#### WHEELS ####
+	
+	airlite_wheels_1 = {
+		enable_equipment_modules = {
+			fixed_wheels
+			big_fixed_wheels
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_wheels_2 = {
+		enable_equipment_modules = {
+			rubber_wheels
+			big_rubber_wheels
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	#### FRAME ####
+	
+	airlite_frame_1 = {
+		enable_equipment_modules = {
+			fabric_skin
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_frame_2 = {
+		enable_equipment_modules = {
+			metal_skin
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	
+	#### SPECIAL MODULES ####
+	
+	airlite_simplified_construction = {
+		enable_equipment_modules = {
+			simplified_plane_construction
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_aerodynamic_construction = {
+		enable_equipment_modules = {
+			aerodynamic_construction
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_supercharger = {
+		enable_equipment_modules = {
+			supercharger
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_turbocharger = {
+		enable_equipment_modules = {
+			turbocharger
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_compressor = {
+		enable_equipment_modules = {
+			twin_spool
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_canards = {
+		enable_equipment_modules = {
+			canards
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_rc_turrets_1 = {
+		enable_equipment_modules = {
+			remote_controlled_turret
+			remote_controlled_turret_2x
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_rc_turrets_2 = {
+		enable_equipment_modules = {
+			rc_cannon_turret
+			rc_cannon_turret_2x
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_bomb_computer_1 = {
+		enable_equipment_modules = {
+			bomb_toss_computer
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_bomb_computer_2 = {
+		enable_equipment_modules = {
+			ballistic_computer
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	#### WEAPONS ####
+	
+	airlite_bomb_rack = {
+		enable_equipment_modules = {
+			small_bomb_rack
+			heavy_bomb_rack
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_rockets_1 = {
+		enable_equipment_modules = {
+			rocket_rails_2x
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_rockets_2 = {
+		enable_equipment_modules = {
+			heavy_rocket_rails
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_rockets_3 = {
+		enable_equipment_modules = {
+			rocket_pods
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_rockets_4 = {
+		enable_equipment_modules = {
+			rocket_pod_rack
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_aa_rockets = {
+		enable_equipment_modules = {
+			time_fuzed_rockets
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_hmg_1 = {
+		enable_equipment_modules = {
+			improved_heavy_mg_2x
+			improved_heavy_mg_4x
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_rotary_1 = {
+		enable_equipment_modules = {
+			aircraft_rotary_cannon_1
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_rotary_2 = {
+		enable_equipment_modules = {
+			aircraft_rotary_cannon_2
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	#### AIR TO AIR MISSILES
+	
+	airlite_aam_ir_1 = {
+		enable_equipment_modules = {
+			ir_missile_1
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_aam_ir_2 = {
+		enable_equipment_modules = {
+			ir_missile_1_2x
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_aam_ir_3 = {
+		enable_equipment_modules = {
+			ir_missile_2
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_aam_ir_4 = {
+		enable_equipment_modules = {
+			ir_missile_2_2x
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_aam_radar_1 = {
+		enable_equipment_modules = {
+			radar_missile_1
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_aam_radar_2 = {
+		enable_equipment_modules = {
+			radar_missile_2
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	#### RADAR ####
+	
+	airlite_radar_1 = {
+		enable_equipment_modules = {
+			aa_radar_3
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_radar_2 = {
+		enable_equipment_modules = {
+			aa_radar_4
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_radar_3 = {
+		enable_equipment_modules = {
+			aa_radar_5
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	#### ENGINE ####
+	
+	airlite_jet_1 = {
+		enable_equipment_modules = {
+			jet_engine_high_bypass_1x
+			jet_engine_high_bypass_2x
+			jet_engine_high_bypass_3x
+			jet_engine_high_bypass_4x
+			jet_engine_high_bypass_6x
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_jet_2 = {
+		enable_equipment_modules = {
+			jet_afterburner_1_1x
+			jet_afterburner_1_2x
+			jet_afterburner_1_3x
+			jet_afterburner_1_4x
+			jet_afterburner_1_6x
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_jet_2 = {
+		enable_equipment_modules = {
+			jet_afterburner_2_1x
+			jet_afterburner_2_2x
+			jet_afterburner_2_3x
+			jet_afterburner_2_4x
+			jet_afterburner_2_6x
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

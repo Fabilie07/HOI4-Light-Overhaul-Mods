@@ -1,0 +1,43 @@
+technologies = {
+
+	#### VANILLA PROJECTS ####
+	
+	airlite_sp_air_bouncing_bomb = {
+		enable_equipment_modules = {
+			dam_buster
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_sp_air_intercontinental_bomber = {
+		enable_equipments = {
+			intercontinental_plane_airframe_1
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	airlite_sp_mothership_aircraft = {
+		enable_equipment_modules = {
+			parasite_fighter_1
+		}
+		
+		research_cost = 1
+		start_year = 1933
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

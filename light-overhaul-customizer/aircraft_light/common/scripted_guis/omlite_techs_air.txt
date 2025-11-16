@@ -1,0 +1,15 @@
+scripted_gui = {
+	omlite_air_container = {
+		context_type = player_context
+		window_name = "omlite_air_container"
+		parent_window_name = "omlite_tech_container"
+
+		visible = {
+			has_country_flag = omlite_air_tab
+		}
+		
+		properties = {
+			wings_1_bg = { image = "[aomlite_sloc_wings_1]" }
+		}
+	}
+}

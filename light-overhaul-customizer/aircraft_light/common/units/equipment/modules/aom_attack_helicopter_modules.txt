@@ -1,0 +1,52 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	
+	### Weapons
+	
+	ah_rocket_pod = {
+		category = ah_weapon
+		gfx = rocket_pods
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			soft_attack = 12
+			build_cost_ic = 2
+		}
+		
+		build_cost_resources = {
+			tungsten = 1
+		}
+	}
+	
+	ah_minigun = {
+		category = ah_weapon
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			soft_attack = 8
+		}
+	}
+	
+	ah_guided_missile = {
+		category = ah_weapon
+		gfx = guided_anti_ship_missile
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			soft_attack = 8
+			hard_attack = 8
+			build_cost_ic = 3
+		}
+		
+		add_average_stats = {
+			ap_attack = 100
+		}
+		
+		build_cost_resources = {
+			chromium = 1
+			tungsten = 1
+		}
+	}
+}

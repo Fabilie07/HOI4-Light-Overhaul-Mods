@@ -1,0 +1,51 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			IF = {
+				limit = {
+					has_game_rule = { airlite_tech_unlock_rule = TECHNOLOGY }
+				}
+				
+				every_country = {
+					limit = {
+						OR = {
+							has_tech = iw_small_airframe
+							has_tech = iw_medium_airframe
+							has_tech = iw_large_airframe
+							has_tech = bba_early_transport_plane
+						}
+					}
+					
+					set_technology = { airlite_wings_1 = 1 popup = no }
+					set_technology = { airlite_wheels_1 = 1 popup = no }
+					set_technology = { airlite_frame_1 = 1 popup = no }
+				}
+				every_country = {
+					limit = {
+						has_tech = aircraft_construction
+					}
+					
+					set_technology = { airlite_wings_2 = 1 popup = no }
+					set_technology = { airlite_wheels_2 = 1 popup = no }
+					set_technology = { airlite_frame_2 = 1 popup = no }
+					set_technology = { airlite_canards = 1 popup = no }
+				}
+			}
+			ELSE = {
+				every_country = {	
+					set_technology = { airlite_wings_1 = 1 popup = no }
+					set_technology = { airlite_wheels_1 = 1 popup = no }
+					set_technology = { airlite_frame_1 = 1 popup = no }
+					set_technology = { airlite_wings_2 = 1 popup = no }
+					set_technology = { airlite_wheels_2 = 1 popup = no }
+					set_technology = { airlite_frame_2 = 1 popup = no }
+					set_technology = { airlite_canards = 1 popup = no }
+				}
+			}
+		}
+		
+		effect = {
+			set_global_flag = omlite_air_mod
+		}
+	}
+}
