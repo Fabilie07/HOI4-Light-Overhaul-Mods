@@ -1,10 +1,10 @@
 [gd_scene load_steps=2 format=3 uid="uid://dcj1niou3hiay"]
 
-[ext_resource type="Script" path="res://_scripts/module_list.gd" id="1_41s3j"]
+[ext_resource type="Script" path="res://_scripts/module_list.gd" id="1_sxugw"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="ModuleList" type="ItemList" parent="."]
 offset_right = 40.0
 offset_bottom = 40.0
-script = ExtResource("1_41s3j")
+script = ExtResource("1_sxugw")
