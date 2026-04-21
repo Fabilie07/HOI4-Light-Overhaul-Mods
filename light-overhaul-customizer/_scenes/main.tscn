@@ -1,10 +1,19 @@
-[gd_scene load_steps=2 format=3 uid="uid://dcj1niou3hiay"]
+[gd_scene load_steps=4 format=3 uid="uid://dcj1niou3hiay"]
 
-[ext_resource type="Script" path="res://_scripts/module_list.gd" id="1_sxugw"]
+[ext_resource type="Script" path="res://_scripts/module_loader.gd" id="1_sxugw"]
+[ext_resource type="Script" path="res://_scripts/technology_loader.gd" id="2_4of57"]
+[ext_resource type="Script" path="res://_scripts/module_list.gd" id="2_qaivs"]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="ModuleList" type="ItemList" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
+[node name="ModuleLoader" type="Node" parent="."]
 script = ExtResource("1_sxugw")
+
+[node name="TechnologyLoader" type="Node" parent="."]
+script = ExtResource("2_4of57")
+
+[node name="ModuleList" type="ItemList" parent="."]
+offset_top = 8.0
+offset_right = 383.0
+offset_bottom = 713.0
+script = ExtResource("2_qaivs")
